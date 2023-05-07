@@ -1,0 +1,30 @@
+
+.img-thumbnail {
+    max-width: 15%;
+    height: auto;
+}
+.mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+body {
+    background-color: rgb(66, 66, 66);
+    color: rgb(243, 215, 215);
+    font-family: cursive;
+  }
+.navbar-brand {
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+  
+#generate-captions-btn:hover {
+    background-color: #E4405F;
+}
+#generate-captions-btn:hover ~ body {
+    background-color: #E4405F;
+    transition: background-color 4s ease-in-out;
+  }
